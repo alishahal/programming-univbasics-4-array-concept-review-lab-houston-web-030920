@@ -12,12 +12,12 @@ end
 def find_max_value(array)
   
     max = array[0]
-    array.length.times |index| 
+    array.length.times { |index| 
     if array[index]>max
        max = array[index]
-       return max
+       
     end
-    
+    }
 end
 
 
